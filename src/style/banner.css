@@ -33,24 +33,11 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    -webkit-transition-duration: 0.4s;
-         -o-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .banner .container button:hover {
-    -webkit-box-shadow: 0px 4px 10px 0px #14142B33;
-            box-shadow: 0px 4px 10px 0px #14142B33;
+    box-shadow: 0px 4px 10px 0px #14142B33;
     color: #0B0E2C;
     cursor: pointer;
-}
-body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.wrapper{
-    width: 1220px;
-    margin: 0 auto;
 }
