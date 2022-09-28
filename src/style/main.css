@@ -1,10 +1,32 @@
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.wrapper{
-    width: 1220px;
+.wrapper {
+    width: 1290px;
     margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    padding: 25px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+button.primary {
+    background-color: #FFDC60;
+}
+
+button.secondary {
+    background-color: #89CEFB;
 }

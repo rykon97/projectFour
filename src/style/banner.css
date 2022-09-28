@@ -1,42 +1,41 @@
+.banner {
+    background-image: url('./background.png');
+}
+
 .banner .container {
-    background-color: #1476FF ;
-    border-radius: 45px;
-    padding: 86px 84px 82px;
-    color: #FFFFFF;
-    background-image: url('./IMAGE.png');
-    background-repeat: no-repeat;
-    background-position: top right;
+    padding: 138px 0;
+    position: relative;
 }
 
-.banner .container h1 {
-    font-size: 32px;
+.banner h1 {
     font-weight: 700;
-    width: 347px;
-    line-height: 48px;
-    margin: 0;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    width: 603px;
+    margin-bottom: 45px;
+    margin-top: 33px;
 }
 
-.banner .container p {
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 8px;
-    margin-bottom: 43px;
+.banner h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.banner .container button {
-    padding: 18px 32px;
-    border-radius: 44px;
-    border: none;
-    color: #1476FF;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    transition-duration: 0.4s;
+.banner h4 img {
+    margin-right: 9px;
 }
 
-.banner .container button:hover {
-    box-shadow: 0px 4px 10px 0px #14142B33;
-    color: #0B0E2C;
-    cursor: pointer;
+.banner button.primary {
+    margin-right: 20px;
+}
+
+.banner .image {
+    position: absolute;
+    top: 82px;
+    right: 0;
 }
