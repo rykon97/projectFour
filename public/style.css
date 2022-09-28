@@ -14,7 +14,6 @@
     width: 347px;
     line-height: 48px;
     margin: 0;
-    
 }
 
 .banner .container p {
@@ -43,6 +42,88 @@
             box-shadow: 0px 4px 10px 0px #14142B33;
     color: #0B0E2C;
     cursor: pointer;
+}
+button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 18px 32px;
+    border-radius: 48px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.white {
+    background-color: white;
+    border: 1px solid #E9EAF3;
+    -webkit-box-shadow: 0px 4px 10px 0px #14142B0A;
+            box-shadow: 0px 4px 10px 0px #14142B0A;
+    margin-right: 35px;
+}
+
+button.blue {
+    background-color: #1476FF;
+    border: 1px solid #1476FF;
+    -webkit-box-shadow: 0px 4px 10px 0px #0257FB33;
+            box-shadow: 0px 4px 10px 0px #0257FB33;
+    color: #FFFFFF;
+}
+.file {
+    margin-top: 80px;
+}
+
+.file .container {
+    border: 1px solid #E9EAF3;
+    border-radius: 20px;
+    padding: 75px 0 72px 68px;
+    position: relative;
+}
+
+.file h1 {
+    width: 354px;
+    color: #0B0E2C;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.file p {
+    font-size: 9px;
+    line-height: 26px;
+    color: #6F7182;
+    margin: 0;
+    margin-bottom: 44px;
+}
+
+.file .screenshot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.file .figma {
+    padding: 11px 27px 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #E9EAF3;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+            box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+    margin-bottom: 47px;
+}
+
+.file .figma img {
+    margin-right: 12px;
 }
 header .container {
     padding: 32px 0 33px;
@@ -79,34 +160,6 @@ header .container .buttons a {
     color: #222222;
     text-decoration: none;
     margin-right: 41px;
-}
-
-header .container .buttons button {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    padding: 18px 32px;
-    border-radius: 48px;
-}
-
-header .container .buttons button:hover {
-    cursor: pointer;
-}
-
-header .container .buttons button.white {
-    background-color: white;
-    border: 1px solid #E9EAF3;
-    -webkit-box-shadow: 0px 4px 10px 0px #14142B0A;
-            box-shadow: 0px 4px 10px 0px #14142B0A;
-    margin-right: 35px;
-}
-
-header .container .buttons button.blue {
-    background-color: #1476FF;
-    border: 1px solid #1476FF;
-    -webkit-box-shadow: 0px 4px 10px 0px #0257FB33;
-            box-shadow: 0px 4px 10px 0px #0257FB33;
-    color: #FFFFFF;
 }
 body {
     margin: 0;
