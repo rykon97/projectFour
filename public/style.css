@@ -39,6 +39,64 @@
     top: 82px;
     right: 0;
 }
+.file {
+    margin-top: 80px;
+}
+.file .container {
+    border: 1px solid #E9EAF3;
+    border-radius: 20px;
+    padding: 75px 0 72px 68px;
+    position: relative;
+}
+.file h1 {
+    width: 354px;
+    color:  #0B0E2C;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.file p {
+    color: #6F7182;
+    font-size: 9px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 44px;
+}
+.file .screenshot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.file .figma {
+    margin-bottom: 47px;
+    padding: 11px 27px 9px 27px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   border: 1px solid #E9EAF3;
+   -webkit-box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+           box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05)
+   
+}
+.file .figma img {
+    margin-right: 12px;
+}
+.figma .container button.blue {
+    height: 52px;
+    width: 200px;
+    left: 10px;
+    top: -18px;
+    border-radius: 44px;    
+background: #1476FF;
+}
 body {
     margin: 0;
     font-family: 'DM Sans', sans-serif;
