@@ -23,10 +23,6 @@ button {
     border: none;
 }
 
-button.primary {
-    background-color: #FFDC60;
-}
-
-button.secondary {
-    background-color: #89CEFB;
+a {
+    text-decoration: none;
 }

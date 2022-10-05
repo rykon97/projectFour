@@ -1,31 +1,3 @@
-body {
-    margin: 0;
-    font-family: 'DM Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.wrapper {
-    width: 1290px;
-    margin: 0 auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-button {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0em;
-    padding: 25px 50px;
-    border-radius: 10px;
-    border: none;
-}
-
-a {
-    text-decoration: none;
-}
 .stats {
     background-color: #292930;
     background-image: url('/img/planets.svg');
@@ -37,16 +9,9 @@ a {
 .stats .container {
     padding: 130px 0 138px;
     height: 700px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    flex-direction: column;
 }
 
 .stats::after {
@@ -57,9 +22,7 @@ a {
     position: absolute;
     right: 0;
     top: 50%;
-    -webkit-transform: translateY(-50%) translateX(50%);
-        -ms-transform: translateY(-50%) translateX(50%);
-            transform: translateY(-50%) translateX(50%);
+    transform: translateY(-50%) translateX(50%);
 }
 
 .stats::before {
@@ -90,12 +53,8 @@ a {
 
 .stats .play {
     margin-top: 101px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .stats .play a {
