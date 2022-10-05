@@ -66,3 +66,48 @@
 .stats .play a:first-child {
     margin-right: 20px;
 }
+.stats .items {
+    margin-top: 149px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.stats .items .item{
+    border-radius: 20px;
+    color: #292930;
+    display: flex;
+    width: 369px;
+    height: 165px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.stats .items .item:nth-of-type(1){
+    background: #FFDC60;
+}
+.stats .items .item:nth-of-type(2){
+    background: #82CEFD;
+
+}
+.stats .items .item:nth-of-type(3){
+    background: #FFADAD;
+}
+.stats .items .item img{
+    width: 77px;
+    height: 77px;
+    margin-right: 40px;
+}
+.stats .items .item .text span {
+  
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+
+}
+.stats .items .item .text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 17px;
+}
