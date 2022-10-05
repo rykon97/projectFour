@@ -43,11 +43,8 @@
 .file .figma img {
     margin-right: 12px;
 }
-.figma .container button.blue {
-    height: 52px;
-    width: 200px;
-    left: 10px;
-    top: -18px;
+.file .container button.blue {
+    color: white;
     border-radius: 44px;    
-background: #1476FF;
+    background: #1476FF;
 }
