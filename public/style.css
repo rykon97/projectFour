@@ -1,9 +1,48 @@
-.blog {
-  background-color: red;
-  border: 20px solid green;
-}
 .blog .container {
-  border: 30px solid black;
+  padding-bottom: 130px;
+  padding-top: 130px;
+}
+.blog .container p {
+  font-size: 18px;
+  text-align: center;
+  color: #8A90A2;
+  font-weight: 500px;
+  margin-bottom: 35px;
+}
+.blog .container p img {
+  margin-right: 9px;
+}
+.blog .container h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.blog .container .post {
+  border: 1px solid #F1F3F6;
+  padding: 40px;
+  width: 544px;
+}
+.blog .container .post .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blog .container .post .info .category, .blog .container .post .info .date {
+  border-radius: 10px;
+  padding: 13px 28px;
+}
+.blog .container .post .info .category {
+  color: #5956E9;
+  background: rgba(89, 86, 233, 0.1);
+}
+.blog .container .post .info .date {
+  background: #F7F8FD;
+  color: #8A90A2;
 }
 body {
   margin: 0;
@@ -23,5 +62,9 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
