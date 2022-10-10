@@ -6,7 +6,7 @@
   font-size: 18px;
   text-align: center;
   color: #8A90A2;
-  font-weight: 500px;
+  font-weight: 500;
   margin-bottom: 35px;
 }
 .blog .container p img {
@@ -17,6 +17,15 @@
   font-weight: 700;
   letter-spacing: -0.03em;
   text-align: center;
+  margin-bottom: 60px;
+}
+.blog .container .posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .blog .container .post {
   border: 1px solid #F1F3F6;
@@ -24,6 +33,7 @@
   width: 544px;
 }
 .blog .container .post .info {
+  margin-top: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,6 +45,7 @@
 .blog .container .post .info .category, .blog .container .post .info .date {
   border-radius: 10px;
   padding: 13px 28px;
+  font-weight: 700;
 }
 .blog .container .post .info .category {
   color: #5956E9;
@@ -43,6 +54,22 @@
 .blog .container .post .info .date {
   background: #F7F8FD;
   color: #8A90A2;
+}
+.blog .container .post h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.blog .container .post p {
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 body {
   margin: 0;
@@ -66,5 +93,9 @@ a {
 
 p {
   margin: 0;
+}
+
+img {
+  line-height: 0;
 }
 /*# sourceMappingURL=style.css.map */
