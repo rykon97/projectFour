@@ -1,19 +1,27 @@
-
-body {
-    margin: 0;
-    font-family: 'DM Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.blog {
+  background-color: red;
+  border: 20px solid green;
 }
+.blog .container {
+  border: 30px solid black;
+}
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .wrapper {
-    width: 1290px;
-    margin: 0 auto;
+  width: 1290px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+/*# sourceMappingURL=style.css.map */
