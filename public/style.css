@@ -31,6 +31,54 @@
   letter-spacing: -0.03em;
   margin-top: 24px;
 }
+
+.people .card {
+  background-image: url("img/card.png");
+  height: 339px;
+  width: 300px;
+  left: 315px;
+  top: 3013px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.people .card .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 143px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 23px;
+}
+.people .card img {
+  width: 12px;
+}
+.people .card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+}
+.people .card p {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  margin-top: 11px;
+  color: #292930;
+}
 body {
   margin: 0;
   font-family: "DM Sans", sans-serif;
