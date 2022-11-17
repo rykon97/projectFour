@@ -1,83 +1,49 @@
-.features .wrapper {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 20px;
-  background-color: #F7F8FD;
-  padding: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+footer {
+  background: #383841;
+  padding-top: 118px;
+  padding-bottom: 80px;
 }
-.features .wrapper .card {
-  background-color: #fff;
-  padding: 48px 32px 50px 39px;
-  border-radius: 20px;
-  width: 189px;
-}
-.features .wrapper .card p {
-  color: #8A90A2;
-  font-size: 18px;
+footer .primary .logo p {
+  margin-top: 35px;
+  width: 290px;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 30px;
-  margin-top: 24px;
+  line-height: 26px;
+  color: #ACB1C0;
 }
-.features .wrapper .card h2 {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -0.03em;
-  margin-top: 24px;
-}
-
-.people .card {
-  background-image: url("img/card.png");
-  height: 339px;
-  width: 300px;
-  left: 315px;
-  top: 3013px;
-  border-radius: 10px;
+footer .primary .logo .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin-top: 23px;
+}
+footer .primary .logo .socials a {
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 14px;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
 }
-.people .card .socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 143px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 23px;
+footer .primary .logo .socials a img {
+  opacity: 0.5;
 }
-.people .card img {
-  width: 12px;
+footer .primary .logo .socials a:hover {
+  background: #423EF3;
 }
-.people .card h2 {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 29px;
-  letter-spacing: -0.03em;
-}
-.people .card p {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0em;
-  margin-top: 11px;
-  color: #292930;
+footer .primary .logo .socials a:hover img {
+  opacity: 1;
 }
 body {
   margin: 0;
