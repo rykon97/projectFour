@@ -1,16 +1,18 @@
+footer {
+  background: #383841;
+  padding-top: 118px;
+  padding-bottom: 80px;
+}
+footer .primary .logo p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+}
 body {
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-html, body {
-  height: 100%;
-  min-height: 600px;
 }
 
 .wrapper {
