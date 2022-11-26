@@ -4,10 +4,42 @@ footer {
   padding-bottom: 80px;
 }
 footer .primary .logo p {
+  margin-top: 35px;
   font-size: 15px;
   font-weight: 400;
   line-height: 26px;
   width: 260px;
+  color: #ACB1C0;
+}
+footer .primary .logo .socials a {
+  -webkit-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  width: 45px;
+  height: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+footer .primary .logo .socials a img {
+  -webkit-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  opacity: 0.5;
+}
+footer .primary .logo .socials a:hover {
+  background-color: #423EF3;
+}
+footer .primary .logo .socials a:hover img {
+  opacity: 1;
 }
 body {
   margin: 0;
